@@ -1,0 +1,37 @@
+title: Be-cGi - Customer Experience Consulting
+description: Consultora especializada en Customer Experience apalancada en Data e Inteligencia Artificial. A través del capital relacional aumentamos el capital económico de las organizaciones.
+logo: /assets/images/logo.png
+favicon: /assets/images/favicon.png
+social_links:
+  linkedin: becgi-consulting
+  twitter: BecGiConsulting
+github_username: GalacticaSystem
+repository: GalacticaSystem/becgi-web
+baseurl: "/becgi-web" # Necesario para GitHub Pages en repo que no es username.github.io
+
+# Collections configuration
+collections:
+  projects:
+    output: true
+    permalink: /portfolio/:path/
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Defaults for posts and projects
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: default

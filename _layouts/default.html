@@ -1,0 +1,112 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <title>{{ site.title }}</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/" class="nav-logo">
+          <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Be-cGi" class="nav-logo-img">
+        </a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <div class="nav-links">
+          <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
+          <a href="{{ site.baseurl }}/portfolio" class="nav-link">Portfolio</a>
+          <a href="{{ site.baseurl }}/blog" class="nav-link">Blog</a>
+          <a href="{{ site.baseurl }}/team" class="nav-link">Team</a>
+          <a href="{{ site.baseurl }}/contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Be-cGi" class="footer-logo-img">
+            <p class="footer-tagline">"A través del capital relacional aumentamos el capital económico de las organizaciones"</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/portfolio">Portfolio</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/team">Team</a>
+            <a href="{{ site.baseurl }}/contact">Contact</a>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-envelope"></i> info@becgi.com</p>
+            <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com/company/becgi-consulting" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/BecGiConsulting" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="text-center">
+            © {{ site.time | date: '%Y' }} {{ site.title }}. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (navToggle && navLinks) {
+          navToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('nav-active');
+            navToggle.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+          });
+        
+          // Cierra el menú cuando se hace clic en un enlace
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+              navLinks.classList.remove('nav-active');
+              navToggle.classList.remove('active');
+              document.body.classList.remove('menu-open');
+            });
+          });
+          
+          // Cierra el menú cuando se hace clic fuera de él
+          document.addEventListener('click', function(event) {
+            const isClickInsideNav = navLinks.contains(event.target);
+            const isClickOnToggle = navToggle.contains(event.target);
+            
+            if (!isClickInsideNav && !isClickOnToggle && navLinks.classList.contains('nav-active')) {
+              navLinks.classList.remove('nav-active');
+              navToggle.classList.remove('active');
+              document.body.classList.remove('menu-open');
+            }
+          });
+          
+          // Ajusta el padding-top del contenido principal
+          const mainContent = document.querySelector('main');
+          if (mainContent) {
+            const navHeight = document.querySelector('.main-nav').offsetHeight;
+            mainContent.style.paddingTop = navHeight + 'px';
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

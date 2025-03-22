@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<article class="project">
+  <header class="project-header">
+    {% if page.cover_image %}
+    <div class="project-cover">
+      <img src="{{ page.cover_image }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    
+    <h1 class="project-title">{{ page.title }}</h1>
+    
+    <div class="project-meta">
+      {% if page.client %}
+      <div class="client-info">
+        <span class="meta-label">Client:</span>
+        <span class="meta-value">{{ page.client }}</span>
+      </div>
+      {% endif %}
+      
+      {% if page.industry %}
+      <div class="industry-info">
+        <span class="meta-label">Industry:</span>
+        <span class="meta-value">{{ page.industry }}</span>
+      </div>
+      {% endif %}
+      
+      {% if page.duration %}
+      <div class="duration-info">
+        <span class="meta-label">Duration:</span>
+        <span class="meta-value">{{ page.duration }}</span>
+      </div>
+      {% endif %}
+      
+      {% if page.tags %}
+      <div class="project-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+  
+  <footer class="project-footer">
+    <div class="project-nav">
+      <div class="prev-next-links">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" class="prev-link">
+          <i class="fas fa-arrow-left"></i> Previous Case Study
+        </a>
+        {% endif %}
+        
+        {% if page.next.url %}
+        <a href="{{ page.next.url }}" class="next-link">
+          Next Case Study <i class="fas fa-arrow-right"></i>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="contact-cta">
+      <h3>Interested in similar results for your business?</h3>
+      <p>Let's discuss how we can help improve your customer experience through data-driven strategies.</p>
+      <a href="/contact" class="cta-button">Get in Touch</a>
+    </div>
+  </footer>
+</article>
