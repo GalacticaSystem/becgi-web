@@ -30,6 +30,7 @@ Icon
 # Temp directories
 tmp/
 temp/
+project_to_markdown_output/
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
