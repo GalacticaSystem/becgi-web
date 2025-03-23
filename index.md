@@ -64,6 +64,7 @@ permalink: /
     <div class="portfolio-grid">
       <div class="portfolio-item">
         <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Transformación de Capital Relacional en Retail">
+        <div class="portfolio-title">Transformación en Retail</div>
         <div class="portfolio-overlay">
           <h3>Transformación en Retail</h3>
           <p>Cómo ayudamos a un importante minorista a reimaginar su estrategia de capital relacional</p>
@@ -72,6 +73,7 @@ permalink: /
       </div>
       <div class="portfolio-item">
         <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Experiencia del Cliente en Banca">
+        <div class="portfolio-title">Experiencia Digital en Banca</div>
         <div class="portfolio-overlay">
           <h3>Banca Digital</h3>
           <p>Creación de experiencias digitales fluidas para clientes bancarios</p>
@@ -80,6 +82,7 @@ permalink: /
       </div>
       <div class="portfolio-item">
         <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Implementación de IA en Telecomunicaciones">
+        <div class="portfolio-title">IA Predictiva en Telecomunicaciones</div>
         <div class="portfolio-overlay">
           <h3>IA en Telecomunicaciones</h3>
           <p>Reducción de la rotación de clientes con soluciones IA predictivas</p>
@@ -97,10 +100,10 @@ permalink: /
       <div class="post-card">
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
+          <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
         </div>
         <div class="post-content">
           <span class="post-date">March 15, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/15/ai-insights">How AI is Reshaping Customer Experience in 2025</a></h3>
           <p>Discover the latest AI technologies that are transforming how businesses interact with their customers.</p>
           <a href="{{ site.baseurl }}/blog/2025/03/15/ai-insights" class="read-more">Read More</a>
         </div>
@@ -108,10 +111,10 @@ permalink: /
       <div class="post-card">
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
+          <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
         </div>
         <div class="post-content">
           <span class="post-date">March 10, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/10/relational-capital">Building Relational Capital in a Digital World</a></h3>
           <p>Learn strategies to build and leverage relational capital to drive business growth and customer loyalty.</p>
           <a href="{{ site.baseurl }}/blog/2025/03/10/relational-capital" class="read-more">Read More</a>
         </div>
@@ -119,10 +122,10 @@ permalink: /
       <div class="post-card">
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
+          <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
         </div>
         <div class="post-content">
           <span class="post-date">March 1, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/01/customer-experience">5 Critical Elements of a Successful CX Strategy</a></h3>
           <p>Explore the key components that make up an effective customer experience strategy for modern businesses.</p>
           <a href="{{ site.baseurl }}/blog/2025/03/01/customer-experience" class="read-more">Read More</a>
         </div>

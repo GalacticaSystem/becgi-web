@@ -35,11 +35,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
+          <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
         </div>
         <div class="post-content">
           <span class="post-date">15 de marzo, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/15/ai-insights">Cómo la IA está Transformando la Experiencia del Cliente en 2025</a></h3>
-          <p>Descubre las últimas tecnologías de IA que están transformando cómo las empresas interactúan con sus clientes y crean experiencias más personalizadas, eficientes y significativas.</p>
+          <p>Descubre las últimas tecnologías de IA que están transformando cómo las empresas interactúan con sus clientes y crean experiencias más personalizadas.</p>
           <div class="post-tags">
             <span class="tag">IA</span>
             <span class="tag">CX</span>
@@ -56,11 +56,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
+          <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
         </div>
         <div class="post-content">
           <span class="post-date">10 de marzo, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/10/relational-capital">Construyendo Capital Relacional en un Mundo Digital</a></h3>
-          <p>Aprende estrategias para construir y aprovechar el capital relacional para impulsar el crecimiento empresarial y la lealtad del cliente en el entorno empresarial cada vez más digital de hoy.</p>
+          <p>Aprende estrategias para construir y aprovechar el capital relacional para impulsar el crecimiento empresarial y la lealtad del cliente.</p>
           <div class="post-tags">
             <span class="tag">Estrategia</span>
             <span class="tag">CX</span>
@@ -77,11 +77,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
+          <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
         </div>
         <div class="post-content">
           <span class="post-date">1 de marzo, 2025</span>
-          <h3><a href="{{ site.baseurl }}/blog/2025/03/01/customer-experience">5 Elementos Críticos de una Estrategia CX Exitosa</a></h3>
-          <p>Explora los componentes clave que conforman una estrategia efectiva de experiencia del cliente para las empresas modernas y cómo implementarlos para obtener el máximo impacto.</p>
+          <p>Explora los componentes clave que conforman una estrategia efectiva de experiencia del cliente para las empresas modernas.</p>
           <div class="post-tags">
             <span class="tag">Estrategia</span>
             <span class="tag">CX</span>
@@ -91,7 +91,6 @@ title: Blog - Be-cGi
         </div>
       </article>
       
-      <!-- Post 4 - Cambiar de iframe a img -->
       <article class="post-card"
         data-category="data"
         data-title="leveraging customer data for business growth"
@@ -99,11 +98,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-4.jpg" alt="Data Analytics">
+          <div class="post-title">Datos de Clientes para el Crecimiento Empresarial</div>
         </div>
         <div class="post-content">
           <span class="post-date">15 de febrero, 2025</span>
-          <h3><a href="#">Aprovechando los Datos de Clientes para el Crecimiento Empresarial</a></h3>
-          <p>Descubre cómo recopilar, analizar y utilizar eficazmente los datos de los clientes para impulsar la toma de decisiones estratégicas y el crecimiento empresarial en tu organización.</p>
+          <p>Descubre cómo recopilar, analizar y utilizar eficazmente los datos de los clientes para impulsar la toma de decisiones estratégicas.</p>
           <div class="post-tags">
             <span class="tag">Datos</span>
             <span class="tag">Analítica</span>
@@ -113,7 +112,6 @@ title: Blog - Be-cGi
         </div>
       </article>
 
-      <!-- Post 5 - Cambiar de iframe a img -->
       <article class="post-card"
         data-category="ai"
         data-title="implementing ai-powered customer service"
@@ -121,11 +119,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-5.jpg" alt="AI Customer Service">
+          <div class="post-title">Implementando Servicio al Cliente con IA</div>
         </div>
         <div class="post-content">
           <span class="post-date">1 de febrero, 2025</span>
-          <h3><a href="#">Implementando Servicio al Cliente Impulsado por IA: Una Guía Paso a Paso</a></h3>
-          <p>Una guía completa para implementar soluciones de IA en tus operaciones de servicio al cliente, desde chatbots hasta análisis predictivo y personalización.</p>
+          <p>Una guía completa para implementar soluciones de IA en tus operaciones de servicio al cliente.</p>
           <div class="post-tags">
             <span class="tag">IA</span>
             <span class="tag">Implementación</span>
@@ -135,7 +133,6 @@ title: Blog - Be-cGi
         </div>
       </article>
 
-      <!-- Post 6 - Cambiar de iframe a img -->
       <article class="post-card"
         data-category="data"
         data-title="measuring cx roi: metrics that matter"
@@ -143,11 +140,11 @@ title: Blog - Be-cGi
       >
         <div class="post-image">
           <img src="{{ site.baseurl }}/assets/images/blog/post-6.jpg" alt="CX Metrics">
+          <div class="post-title">Midiendo el ROI de CX: Métricas que Importan</div>
         </div>
         <div class="post-content">
           <span class="post-date">20 de enero, 2025</span>
-          <h3><a href="#">Midiendo el ROI de CX: Métricas que Importan</a></h3>
-          <p>Aprende qué métricas de experiencia del cliente proporcionan la mayor información sobre el ROI y cómo rastrearlas y analizarlas eficazmente para el impacto empresarial.</p>
+          <p>Aprende qué métricas de experiencia del cliente proporcionan la mayor información sobre el ROI y cómo rastrearlas eficazmente.</p>
           <div class="post-tags">
             <span class="tag">Métricas</span>
             <span class="tag">ROI</span>
