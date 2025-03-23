@@ -197,6 +197,10 @@ a {
   position: relative;
   overflow: hidden;
   
+  &.smaller {
+    padding: 5rem 2rem 4rem;
+  }
+  
   &::before {
     content: '';
     position: absolute;
@@ -231,16 +235,21 @@ a {
   }
   
   .tagline {
-    font-size: 1.25rem;
-    opacity: 0.9;
+    font-size: 1.4rem;
+    opacity: 0.95;
     max-width: 700px;
-    margin: 0 auto 0.5rem;
+    margin: 1.5rem auto 0.8rem;
+    font-style: italic;
+    line-height: 1.6;
   }
   
   .subtitle {
     font-size: 1.1rem;
-    opacity: 0.8;
-    font-style: italic;
+    opacity: 0.85;
+    font-style: normal;
+    text-align: right;
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 

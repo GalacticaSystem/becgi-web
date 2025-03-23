@@ -4,12 +4,11 @@ title: Be-cGi - Customer Experience Consulting
 permalink: /
 ---
 
-<div class="hero-banner">
+<div class="hero-banner smaller">
   <div class="banner-content">
     <h1>Be-cGi</h1>
-    <h2 class="headline">Capital Relacional</h2>
     <p class="tagline">"A través del capital relacional aumentamos el capital económico de las organizaciones"</p>
-    <p class="subtitle">Grandes organizaciones en América</p>
+    <p class="subtitle">- Catalina Iririta, CEO</p>
   </div>
 </div>
 
