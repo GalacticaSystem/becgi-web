@@ -5,7 +5,7 @@ layout: default
   <header class="project-header">
     {% if page.cover_image %}
     <div class="project-cover">
-      <img src="{{ page.cover_image }}" alt="{{ page.title }}">
+      <img src="{{ site.baseurl }}{{ page.cover_image }}" alt="{{ page.title }}">
     </div>
     {% endif %}
     
@@ -48,26 +48,30 @@ layout: default
   </div>
   
   <footer class="project-footer">
-    <div class="project-nav">
-      <div class="prev-next-links">
-        {% if page.previous.url %}
-        <a href="{{ page.previous.url }}" class="prev-link">
-          <i class="fas fa-arrow-left"></i> Previous Case Study
-        </a>
-        {% endif %}
-        
-        {% if page.next.url %}
-        <a href="{{ page.next.url }}" class="next-link">
-          Next Case Study <i class="fas fa-arrow-right"></i>
-        </a>
-        {% endif %}
+    <!-- Navegación de proyectos anterior/siguiente -->
+    <div class="project-nav-container">
+      {% if page.previous.url or page.next.url %}
+      <div class="project-nav">
+        <div class="prev-next-links">
+          {% if page.previous.url %}
+          <a href="{{ page.previous.url }}" class="prev-link">
+            <i class="fas fa-arrow-left"></i> Previous Case Study
+          </a>
+          {% endif %}
+          
+          {% if page.next.url %}
+          <a href="{{ page.next.url }}" class="next-link">
+            Next Case Study <i class="fas fa-arrow-right"></i>
+          </a>
+          {% endif %}
+        </div>
       </div>
+      {% endif %}
     </div>
-    
-    <div class="contact-cta">
-      <h3>Interested in similar results for your business?</h3>
-      <p>Let's discuss how we can help improve your customer experience through data-driven strategies.</p>
-      <a href="/contact" class="cta-button">Get in Touch</a>
+    <div class="cta-box">
+      <h3>Want to improve your customer experience?</h3>
+      <p>Let our experts help you leverage data and AI to create meaningful connections with your customers.</p>
+      <a href="{{ site.baseurl }}/contact" class="cta-button">Contact Us</a>
     </div>
   </footer>
 </article>

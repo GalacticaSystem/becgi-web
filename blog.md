@@ -108,7 +108,7 @@ title: Blog - Be-cGi
             <span class="tag">Analítica</span>
             <span class="tag">Negocios</span>
           </div>
-          <a href="#" class="read-more">Próximamente</a>
+          <a href="{{ site.baseurl }}/blog/2025/02/15/customer-data-growth" class="read-more">Leer más</a>
         </div>
       </article>
 
@@ -129,7 +129,7 @@ title: Blog - Be-cGi
             <span class="tag">Implementación</span>
             <span class="tag">Servicio</span>
           </div>
-          <a href="#" class="read-more">Próximamente</a>
+          <a href="{{ site.baseurl }}/blog/2025/02/01/ai-customer-service" class="read-more">Leer más</a>
         </div>
       </article>
 
@@ -150,7 +150,7 @@ title: Blog - Be-cGi
             <span class="tag">ROI</span>
             <span class="tag">Analítica</span>
           </div>
-          <a href="#" class="read-more">Próximamente</a>
+          <a href="{{ site.baseurl }}/blog/2025/01/20/cx-roi-metrics" class="read-more">Leer más</a>
         </div>
       </article>
     </div>

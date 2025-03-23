@@ -6,7 +6,7 @@ layout: default
   <header class="post-header">
     {% if page.cover_image %}
     <div class="post-cover">
-      <img src="{{ page.cover_image }}" alt="{{ page.title }}">
+      <img src="{{ site.baseurl }}{{ page.cover_image }}" alt="{{ page.title }}">
     </div>
     {% endif %}
     
@@ -42,21 +42,10 @@ layout: default
   </div>
   
   <footer class="post-footer">
-    <div class="share-buttons">
-      <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" 
-         target="_blank" class="share-button twitter">
-        <i class="fab fa-twitter"></i> Share
-      </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}" 
-         target="_blank" class="share-button linkedin">
-        <i class="fab fa-linkedin"></i> Share
-      </a>
-    </div>
-    
     <div class="cta-box">
       <h3>Want to improve your customer experience?</h3>
       <p>Let our experts help you leverage data and AI to create meaningful connections with your customers.</p>
-      <a href="/contact" class="cta-button">Contact Us</a>
+      <a href="{{ site.baseurl }}/contact" class="cta-button">Contact Us</a>
     </div>
   </footer>
 </article>

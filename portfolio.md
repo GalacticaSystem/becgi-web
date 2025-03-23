@@ -56,7 +56,7 @@ title: Portfolio - Be-cGi
         <div class="portfolio-overlay">
           <h3>Retail Loyalty Program</h3>
           <p>Designing a data-driven loyalty program that increased repeat purchases by 45%</p>
-          <a href="#" class="btn">Coming Soon</a>
+          <a href="{{ site.baseurl }}/portfolio/case_study_4" class="btn">Read Case Study</a>
         </div>
       </div>
       
@@ -66,7 +66,7 @@ title: Portfolio - Be-cGi
         <div class="portfolio-overlay">
           <h3>Digital Banking Transformation</h3>
           <p>Revamping the mobile banking experience for a leading financial institution</p>
-          <a href="#" class="btn">Coming Soon</a>
+          <a href="{{ site.baseurl }}/portfolio/case_study_5" class="btn">Read Case Study</a>
         </div>
       </div>
       
@@ -76,7 +76,7 @@ title: Portfolio - Be-cGi
         <div class="portfolio-overlay">
           <h3>Telecom Customer Service</h3>
           <p>Implementing AI-powered customer service solutions that reduced response time by 65%</p>
-          <a href="#" class="btn">Coming Soon</a>
+          <a href="{{ site.baseurl }}/portfolio/case_study_6" class="btn">Read Case Study</a>
         </div>
       </div>
     </div>
