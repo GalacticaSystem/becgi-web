@@ -8,7 +8,7 @@ permalink: /
   <div class="banner-content">
     <h1>Be-cGi</h1>
     <p class="tagline">"A través del capital relacional aumentamos el capital económico de las organizaciones"</p>
-    <p class="subtitle">- Catalina Iririta, CEO</p>
+    <p class="subtitle">- Catalina Irurita, CEO</p>
   </div>
 </div>
 
