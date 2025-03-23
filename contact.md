@@ -20,7 +20,7 @@ title: Contact Us - Be-cGi
           <i class="fas fa-map-marker-alt"></i>
           <div class="info-content">
             <h4>Office Location</h4>
-            <p>123 Business Avenue, Suite 456<br>Panama City, Panama</p>
+            <p>Av. Paseo de la Reforma 483<br>Ciudad de México, México</p>
           </div>
         </div>
         
@@ -28,7 +28,7 @@ title: Contact Us - Be-cGi
           <i class="fas fa-phone-alt"></i>
           <div class="info-content">
             <h4>Phone</h4>
-            <p><a href="tel:+50761234567">+507 6123-4567</a></p>
+            <p><a href="tel:+573176355612">+57 317 6355612</a></p>
           </div>
         </div>
         
@@ -36,7 +36,7 @@ title: Contact Us - Be-cGi
           <i class="fas fa-envelope"></i>
           <div class="info-content">
             <h4>Email</h4>
-            <p><a href="mailto:info@becgi.com">info@becgi.com</a></p>
+            <p><a href="mailto:info@be-cgi.com">info@be-cgi.com</a></p>
           </div>
         </div>
         
@@ -98,7 +98,7 @@ title: Contact Us - Be-cGi
 <div class="map-section">
   <div class="container">
     <div class="map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.5351125813686!2d-79.52997532584485!3d8.983190189708088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8f1fbe3d947%3A0xafd57ced9b4d5264!2sBusiness%20Park%20Panama!5e0!3m2!1sen!2spa!4v1710281234567!5m2!1sen!2spa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661075731008!2d-99.17986102384354!3d19.424562641856447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1d13%3A0x6c366f0e2de02ff7!2sAv.%20Paseo%20de%20la%20Reforma%20483%2C%20Cuauht%C3%A9moc%2C%2006500%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1711135845905!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>

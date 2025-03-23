@@ -3,20 +3,21 @@
 
 @charset "utf-8";
 
-/* Variables globales basadas en el PDF */
-$primary-color: #26486e;  /* Azul oscuro, basado en el color de fondo del PDF */
-$primary-light: #3a6ba3;  /* Versión más clara del azul */
-$secondary-color: #83244c;  /* Rojo borgoña, del segundo slide del PDF */
-$text-color: #2a2a2a;
-$text-dark: #1a1a1a;
-$text-muted: #666666;
-$background-color: #ffffff;
-$background-light: #f8f9fc;
-$border-color: #e0e7f1;
-$accent-color: #3a6ba3;
-$success-color: #27ae60;
-$warning-color: #f39c12;
-$info-color: #2980b9;
+/* Variables globales basadas en el PDF de BE-cGi */
+$primary-color: #9a23a7;       /* Morado principal, color corporativo */
+$primary-light: #b44ec1;       /* Morado más claro para hover y elementos secundarios */
+$primary-dark: #7a1d85;        /* Morado más oscuro para elementos que necesitan más contraste */
+$secondary-color: #83244c;     /* Rojo borgoña, color secundario de la marca */
+$text-color: #2a2a2a;          /* Color principal para texto */
+$text-dark: #1a1a1a;           /* Color para títulos y texto importante */
+$text-muted: #666666;          /* Color para texto secundario */
+$background-color: #ffffff;    /* Fondo principal */
+$background-light: #f8f9fc;    /* Fondo secundario para secciones alternas */
+$border-color: #e0e7f1;        /* Color para bordes y separadores */
+$accent-color: #9a23a7;        /* Color de acento igual al primario para consistencia */
+$success-color: #27ae60;       /* Verde para mensajes de éxito */
+$warning-color: #f39c12;       /* Amarillo para advertencias */
+$info-color: #2980b9;          /* Azul para información */
 
 /* Estilos base */
 body {
@@ -40,7 +41,7 @@ a {
   transition: all 0.3s ease;
   
   &:hover {
-    color: darken($accent-color, 10%);
+    color: $primary-light;
     text-decoration: none;
   }
 }
@@ -190,9 +191,9 @@ a {
 .hero-banner {
   background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   color: #ffffff;
-  padding: 6rem 2rem;
+  padding: 7rem 2rem 6rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   position: relative;
   overflow: hidden;
   
@@ -216,7 +217,7 @@ a {
   
   h1 {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     letter-spacing: -0.03em;
@@ -245,7 +246,7 @@ a {
 
 /* Servicios cards */
 .services-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .services-grid {
@@ -257,9 +258,9 @@ a {
 
 .service-card {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
@@ -270,9 +271,9 @@ a {
 }
 
 .service-card i {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: $primary-color;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .service-card h3 {
@@ -288,73 +289,10 @@ a {
   line-height: 1.6;
 }
 
-/* Sección de stakeholders */
-.stakeholders-section {
-  padding: 4rem 0;
-  background-color: $background-light;
-}
-
-.stakeholders-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-top: 2rem;
-}
-
-.stakeholders-column {
-  h3 {
-    font-size: 1.5rem;
-    color: $primary-color;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    position: relative;
-    
-    &:after {
-      content: '';
-      display: block;
-      width: 50px;
-      height: 3px;
-      background: $secondary-color;
-      margin: 0.8rem auto 0;
-    }
-  }
-}
-
-.stakeholders-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-  li {
-    padding: 0.8rem 0;
-    border-bottom: 1px solid rgba($border-color, 0.5);
-    display: flex;
-    align-items: center;
-    
-    &:last-child {
-      border-bottom: none;
-    }
-    
-    i {
-      color: $primary-color;
-      margin-right: 1rem;
-      font-size: 1.2rem;
-      width: 1.5rem;
-      text-align: center;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .stakeholders-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-}
 
 /* Testimonios */
 .testimonials-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .testimonials-slider {
@@ -487,7 +425,7 @@ a {
 
 /* Portfolio section */
 .portfolio-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .portfolio-filters {
@@ -525,7 +463,7 @@ a {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
   
   &:hover {
@@ -589,7 +527,7 @@ a {
 
 /* Blog section */
 .blog-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: $background-light;
 }
 
@@ -604,7 +542,7 @@ a {
   background: white;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   
   &:hover {
@@ -666,7 +604,7 @@ a {
       color: $primary-color;
       
       &:hover {
-        color: darken($primary-color, 10%);
+        color: $primary-light;
         text-decoration: underline;
       }
     }
@@ -811,7 +749,7 @@ a {
     transition: all 0.3s ease;
     
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: $primary-dark;
     }
   }
 }
@@ -824,6 +762,7 @@ a {
   text-align: center;
   position: relative;
   overflow: hidden;
+  margin-top: 1rem;
   
   &::before {
     content: '';
@@ -874,7 +813,7 @@ a {
 
 /* Footer */
 footer {
-  background-color: #1c2331;
+  background-color: #1c1c2e;
   color: rgba(255,255,255,0.7);
   padding-top: 4rem;
 }
@@ -968,7 +907,7 @@ footer {
 }
 
 .footer-bottom {
-  background-color: #141a24;
+  background-color: #13131e;
   padding: 1.5rem 0;
   margin-top: 3rem;
   
@@ -1087,5 +1026,257 @@ footer {
   
   .cta-content h2 {
     font-size: 2rem;
+  }
+}
+
+
+/* Estilos específicos para el blog */
+
+.blog-filters {
+  margin-bottom: 3rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $border-color;
+  
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    
+    .search-input {
+      width: 100%;
+      padding: 0.8rem 1rem 0.8rem 2.5rem;
+      border: 1px solid $border-color;
+      border-radius: 30px;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+        box-shadow: 0 0 0 3px rgba($primary-color, 0.1);
+      }
+    }
+    
+    .search-icon {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $text-muted;
+    }
+  }
+}
+
+.pagination {
+  margin-bottom: 4rem;
+  
+  .pagination-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    
+    .pagination-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      color: $text-muted;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      
+      &:hover:not(.disabled) {
+        background-color: rgba($primary-color, 0.1);
+        color: $primary-color;
+        border-color: $primary-color;
+      }
+      
+      &.active {
+        background-color: $primary-color;
+        color: white;
+        border-color: $primary-color;
+      }
+      
+      &.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      
+      i {
+        font-size: 0.8rem;
+        margin: 0 0.3rem;
+      }
+    }
+  }
+}
+
+.newsletter-signup {
+  background-color: $background-light;
+  padding: 4rem 0;
+  
+  .newsletter-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .newsletter-info {
+    flex: 1;
+    
+    @media (max-width: 768px) {
+      margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: $text-dark;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      color: $text-color;
+    }
+  }
+  
+  .newsletter-form {
+    flex: 1;
+    
+    .form-group {
+      display: flex;
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-input {
+      flex: 1;
+      padding: 0.8rem 1rem;
+      border: 1px solid $border-color;
+      border-right: none;
+      border-radius: 4px 0 0 4px;
+      font-size: 0.95rem;
+    }
+    
+    .form-button {
+      padding: 0 1.5rem;
+      background-color: $primary-color;
+      color: white;
+      border: 1px solid $primary-color;
+      border-radius: 0 4px 4px 0;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: $primary-dark;
+      }
+    }
+    
+    .form-disclaimer {
+      color: $text-muted;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+/* Estilos para los tags de post */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+  .tag {
+    background-color: rgba($primary-color, 0.1);
+    color: $primary-color;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: rgba($primary-color, 0.2);
+    }
+  }
+}
+
+/* Estilos para la sección de Principios */
+.principles-section {
+  padding: 5rem 0;
+  background-color: #f8f9fc;
+}
+
+.principles-grid {
+  margin-top: 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.principle-card {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.principle-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.principle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+}
+
+.principle-content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.principle-content h3 {
+  color: $primary-color;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.principle-content p {
+  color: $text-color;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .principle-card {
+    flex-direction: column;
+  }
+  
+  .principle-icon {
+    width: 100%;
+    padding: 2rem;
   }
 }

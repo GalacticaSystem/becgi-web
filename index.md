@@ -36,54 +36,21 @@ permalink: /
   </div>
 </div>
 
-<div class="stakeholders-section">
-  <div class="container">
-    <h2 class="text-center">Nuestros Stakeholders</h2>
-    <div class="stakeholders-container">
-      <div class="stakeholders-column">
-        <h3>Externos</h3>
-        <ul class="stakeholders-list">
-          <li><i class="fas fa-building"></i> Clientes (Segmentación)</li>
-          <li><i class="fas fa-truck"></i> Proveedores</li>
-          <li><i class="fas fa-chart-line"></i> Inversores y Analistas financieros</li>
-          <li><i class="fas fa-landmark"></i> Gobiernos y Reguladores</li>
-          <li><i class="fas fa-leaf"></i> Grupos ecologistas</li>
-          <li><i class="fas fa-home"></i> Comunidad local</li>
-          <li><i class="fas fa-newspaper"></i> Medios de Comunicación</li>
-          <li><i class="fas fa-hands-helping"></i> Organizaciones no Gubernamentales</li>
-          <li><i class="fas fa-chess"></i> Competidores</li>
-          <li><i class="fas fa-university"></i> Academia</li>
-          <li><i class="fas fa-microphone"></i> Líderes de opinión</li>
-          <li><i class="fas fa-users"></i> Influenciadores</li>
-        </ul>
-      </div>
-      <div class="stakeholders-column">
-        <h3>Internos</h3>
-        <ul class="stakeholders-list">
-          <li><i class="fas fa-user-tie"></i> Empleados</li>
-          <li><i class="fas fa-users"></i> Familias de empleados</li>
-          <li><i class="fas fa-money-bill-wave"></i> Propietarios y accionistas</li>
-          <li><i class="fas fa-user-friends"></i> Consejeros</li>
-          <li><i class="fas fa-comments"></i> Sindicatos y representantes de los empleados</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <div class="testimonials-section">
   <div class="container">
-    <h2 class="text-center">What Our Clients Say</h2>
+    <h2 class="text-center">Testimonios de Clientes</h2>
     <div class="testimonials-slider">
       <div class="testimonial-card">
         <div class="testimonial-content">
-          "Be-cGi transformed our customer experience strategy. Their data-driven approach and AI solutions helped us increase customer retention by 35% in just six months."
+          "Be-cGi transformó nuestra estrategia de capital relacional. Su enfoque basado en datos y sus soluciones de IA nos ayudaron a aumentar la retención de clientes en un 35% en solo seis meses."
         </div>
         <div class="testimonial-author">
-          <img src="{{ site.baseurl }}/assets/images/team/testimonial-1.jpg" alt="John Smith" class="author-image">
+          <img src="{{ site.baseurl }}/assets/images/team/testimonial-1.jpg" alt="Cliente Satisfecho" class="author-image">
           <div class="author-info">
-            <h4>John Smith</h4>
-            <p>CEO, Global Retail Inc.</p>
+            <h4>Director Ejecutivo</h4>
+            <p>Empresa Líder en Retail</p>
           </div>
         </div>
       </div>
@@ -93,30 +60,30 @@ permalink: /
 
 <div class="portfolio-section">
   <div class="container">
-    <h2 class="text-center">Featured Case Studies</h2>
+    <h2 class="text-center">Casos de Éxito</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Retail CX Transformation">
+        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Transformación de Capital Relacional en Retail">
         <div class="portfolio-overlay">
-          <h3>Retail CX Transformation</h3>
-          <p>How we helped a major retailer reimagine their customer experience</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_1" class="btn">Read Case Study</a>
+          <h3>Transformación en Retail</h3>
+          <p>Cómo ayudamos a un importante minorista a reimaginar su estrategia de capital relacional</p>
+          <a href="{{ site.baseurl }}/portfolio/case_study_1" class="btn">Ver Caso</a>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Banking Customer Journey">
+        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Experiencia del Cliente en Banca">
         <div class="portfolio-overlay">
-          <h3>Banking Customer Journey</h3>
-          <p>Creating seamless digital experiences for banking customers</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_2" class="btn">Read Case Study</a>
+          <h3>Banca Digital</h3>
+          <p>Creación de experiencias digitales fluidas para clientes bancarios</p>
+          <a href="{{ site.baseurl }}/portfolio/case_study_2" class="btn">Ver Caso</a>
         </div>
       </div>
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Telecom AI Implementation">
+        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Implementación de IA en Telecomunicaciones">
         <div class="portfolio-overlay">
-          <h3>Telecom AI Implementation</h3>
-          <p>Reducing churn with predictive AI solutions</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_3" class="btn">Read Case Study</a>
+          <h3>IA en Telecomunicaciones</h3>
+          <p>Reducción de la rotación de clientes con soluciones IA predictivas</p>
+          <a href="{{ site.baseurl }}/portfolio/case_study_3" class="btn">Ver Caso</a>
         </div>
       </div>
     </div>
@@ -125,7 +92,7 @@ permalink: /
 
 <div class="blog-section">
   <div class="container">
-    <h2 class="text-center">Latest Insights</h2>
+    <h2 class="text-center">Insights Recientes</h2>
     <div class="posts-grid">
       <div class="post-card">
         <div class="post-image">
@@ -166,8 +133,8 @@ permalink: /
 
 <div class="cta-section">
   <div class="cta-content">
-    <h2>Ready to Transform Your Customer Experience?</h2>
-    <p>Let's discuss how we can help you leverage data and AI to create meaningful connections with your customers.</p>
-    <a href="{{ site.baseurl }}/contact" class="cta-btn">Get in Touch</a>
+    <h2>¿Listo para potenciar tu Capital Relacional?</h2>
+    <p>Hablemos sobre cómo podemos ayudarte a aprovechar los datos y la IA para crear conexiones significativas con tus clientes y stakeholders.</p>
+    <a href="{{ site.baseurl }}/contact" class="cta-btn">Contáctanos</a>
   </div>
 </div>
