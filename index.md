@@ -7,43 +7,66 @@ permalink: /
 <div class="hero-banner">
   <div class="banner-content">
     <h1>Be-cGi</h1>
-    <h2 class="headline">Customer Experience Experts</h2>
+    <h2 class="headline">Capital Relacional</h2>
     <p class="tagline">"A través del capital relacional aumentamos el capital económico de las organizaciones"</p>
+    <p class="subtitle">Grandes organizaciones en América</p>
   </div>
 </div>
 
 <div class="services-section">
   <div class="container">
-    <h2 class="text-center">Our Services</h2>
+    <h2 class="text-center">Nuestros Principios Guía</h2>
     <div class="services-grid">
       <div class="service-card">
+        <i class="fas fa-comments"></i>
+        <h3>Asertividad</h3>
+        <p>Adaptamos nuestra comunicación al contexto y a las personas, manteniendo siempre transparencia, coherencia, respeto y autenticidad, asegurando claridad en nuestras decisiones y acciones.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-handshake"></i>
+        <h3>Transparencia</h3>
+        <p>Operamos con transparencia y coherencia en todas nuestras decisiones y acciones, comunicando la verdad con claridad y en el momento oportuno.</p>
+      </div>
+      <div class="service-card">
         <i class="fas fa-users"></i>
-        <h3>Customer Experience Strategy</h3>
-        <p>We design comprehensive strategies that transform how your customers interact with your brand, increasing loyalty and driving business growth.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-chart-line"></i>
-        <h3>Data Analysis & Insights</h3>
-        <p>Convert your customer data into actionable insights that drive strategic decision-making and measurable business outcomes.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-robot"></i>
-        <h3>AI-Driven Solutions</h3>
-        <p>Leverage artificial intelligence to enhance customer interactions, predict behavior, and deliver personalized experiences at scale.</p>
+        <h3>Respeto</h3>
+        <p>Adaptamos nuestra comunicación al contexto y a la persona, manteniendo la autenticidad y el respeto en todas nuestras interacciones.</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="clients-section">
+<div class="stakeholders-section">
   <div class="container">
-    <h2 class="text-center">Trusted By</h2>
-    <div class="clients-grid">
-      <img src="{{ site.baseurl }}/assets/images/clients/client-logo-1.png" alt="Client 1" class="client-logo">
-      <img src="{{ site.baseurl }}/assets/images/clients/client-logo-2.png" alt="Client 2" class="client-logo">
-      <img src="{{ site.baseurl }}/assets/images/clients/client-logo-3.png" alt="Client 3" class="client-logo">
-      <img src="{{ site.baseurl }}/assets/images/clients/client-logo-4.png" alt="Client 4" class="client-logo">
-      <img src="{{ site.baseurl }}/assets/images/clients/client-logo-5.png" alt="Client 5" class="client-logo">
+    <h2 class="text-center">Nuestros Stakeholders</h2>
+    <div class="stakeholders-container">
+      <div class="stakeholders-column">
+        <h3>Externos</h3>
+        <ul class="stakeholders-list">
+          <li><i class="fas fa-building"></i> Clientes (Segmentación)</li>
+          <li><i class="fas fa-truck"></i> Proveedores</li>
+          <li><i class="fas fa-chart-line"></i> Inversores y Analistas financieros</li>
+          <li><i class="fas fa-landmark"></i> Gobiernos y Reguladores</li>
+          <li><i class="fas fa-leaf"></i> Grupos ecologistas</li>
+          <li><i class="fas fa-home"></i> Comunidad local</li>
+          <li><i class="fas fa-newspaper"></i> Medios de Comunicación</li>
+          <li><i class="fas fa-hands-helping"></i> Organizaciones no Gubernamentales</li>
+          <li><i class="fas fa-chess"></i> Competidores</li>
+          <li><i class="fas fa-university"></i> Academia</li>
+          <li><i class="fas fa-microphone"></i> Líderes de opinión</li>
+          <li><i class="fas fa-users"></i> Influenciadores</li>
+        </ul>
+      </div>
+      <div class="stakeholders-column">
+        <h3>Internos</h3>
+        <ul class="stakeholders-list">
+          <li><i class="fas fa-user-tie"></i> Empleados</li>
+          <li><i class="fas fa-users"></i> Familias de empleados</li>
+          <li><i class="fas fa-money-bill-wave"></i> Propietarios y accionistas</li>
+          <li><i class="fas fa-user-friends"></i> Consejeros</li>
+          <li><i class="fas fa-comments"></i> Sindicatos y representantes de los empleados</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
