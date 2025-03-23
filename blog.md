@@ -34,8 +34,10 @@ title: Blog - Be-cGi
         data-tags="ai artificial intelligence customer experience cx trends technology"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
-          <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/15/ai-insights">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
+            <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">15 de marzo, 2025</span>
@@ -55,8 +57,10 @@ title: Blog - Be-cGi
         data-tags="relational capital customer experience cx strategy relationships"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
-          <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/10/relational-capital">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
+            <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">10 de marzo, 2025</span>
@@ -76,8 +80,10 @@ title: Blog - Be-cGi
         data-tags="customer experience cx strategy business growth"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
-          <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/01/customer-experience">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
+            <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">1 de marzo, 2025</span>
@@ -97,8 +103,10 @@ title: Blog - Be-cGi
         data-tags="data analytics business growth strategy"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-4.jpg" alt="Data Analytics">
-          <div class="post-title">Datos de Clientes para el Crecimiento Empresarial</div>
+          <a href="{{ site.baseurl }}/blog/2025/02/15/customer-data-growth">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-4.jpg" alt="Data Analytics">
+            <div class="post-title">Datos de Clientes para el Crecimiento Empresarial</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">15 de febrero, 2025</span>
@@ -118,8 +126,10 @@ title: Blog - Be-cGi
         data-tags="ai artificial intelligence customer service cx implementation"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-5.jpg" alt="AI Customer Service">
-          <div class="post-title">Implementando Servicio al Cliente con IA</div>
+          <a href="{{ site.baseurl }}/blog/2025/02/01/ai-customer-service">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-5.jpg" alt="AI Customer Service">
+            <div class="post-title">Implementando Servicio al Cliente con IA</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">1 de febrero, 2025</span>
@@ -139,8 +149,10 @@ title: Blog - Be-cGi
         data-tags="roi metrics data analytics cx measurement"
       >
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-6.jpg" alt="CX Metrics">
-          <div class="post-title">Midiendo el ROI de CX: Métricas que Importan</div>
+          <a href="{{ site.baseurl }}/blog/2025/01/20/cx-roi-metrics">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-6.jpg" alt="CX Metrics">
+            <div class="post-title">Midiendo el ROI de CX: Métricas que Importan</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">20 de enero, 2025</span>

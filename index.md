@@ -63,31 +63,37 @@ permalink: /
     <h2 class="text-center">Casos de Éxito</h2>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Transformación de Capital Relacional en Retail">
-        <div class="portfolio-title">Transformación en Retail</div>
-        <div class="portfolio-overlay">
-          <h3>Transformación en Retail</h3>
-          <p>Cómo ayudamos a un importante minorista a reimaginar su estrategia de capital relacional</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_1" class="btn">Ver Caso</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_1">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Transformación de Capital Relacional en Retail">
+          <div class="portfolio-title">Transformación en Retail</div>
+          <div class="portfolio-overlay">
+            <h3>Transformación en Retail</h3>
+            <p>Cómo ayudamos a un importante minorista a reimaginar su estrategia de capital relacional</p>
+            <span class="btn">Ver Caso</span>
+          </div>
+        </a>
       </div>
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Experiencia del Cliente en Banca">
-        <div class="portfolio-title">Experiencia Digital en Banca</div>
-        <div class="portfolio-overlay">
-          <h3>Banca Digital</h3>
-          <p>Creación de experiencias digitales fluidas para clientes bancarios</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_2" class="btn">Ver Caso</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_2">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Experiencia del Cliente en Banca">
+          <div class="portfolio-title">Experiencia Digital en Banca</div>
+          <div class="portfolio-overlay">
+            <h3>Banca Digital</h3>
+            <p>Creación de experiencias digitales fluidas para clientes bancarios</p>
+            <span class="btn">Ver Caso</span>
+          </div>
+        </a>
       </div>
       <div class="portfolio-item">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Implementación de IA en Telecomunicaciones">
-        <div class="portfolio-title">IA Predictiva en Telecomunicaciones</div>
-        <div class="portfolio-overlay">
-          <h3>IA en Telecomunicaciones</h3>
-          <p>Reducción de la rotación de clientes con soluciones IA predictivas</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_3" class="btn">Ver Caso</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_3">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Implementación de IA en Telecomunicaciones">
+          <div class="portfolio-title">IA Predictiva en Telecomunicaciones</div>
+          <div class="portfolio-overlay">
+            <h3>IA en Telecomunicaciones</h3>
+            <p>Reducción de la rotación de clientes con soluciones IA predictivas</p>
+            <span class="btn">Ver Caso</span>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -99,8 +105,10 @@ permalink: /
     <div class="posts-grid">
       <div class="post-card">
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
-          <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/15/ai-insights">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-1.jpg" alt="Customer Experience Trends">
+            <div class="post-title">Cómo la IA Transforma la Experiencia del Cliente</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">March 15, 2025</span>
@@ -110,8 +118,10 @@ permalink: /
       </div>
       <div class="post-card">
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
-          <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/10/relational-capital">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-2.jpg" alt="Relational Capital">
+            <div class="post-title">Construyendo Capital Relacional en un Mundo Digital</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">March 10, 2025</span>
@@ -121,8 +131,10 @@ permalink: /
       </div>
       <div class="post-card">
         <div class="post-image">
-          <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
-          <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
+          <a href="{{ site.baseurl }}/blog/2025/03/01/customer-experience">
+            <img src="{{ site.baseurl }}/assets/images/blog/post-3.jpg" alt="CX Strategy">
+            <div class="post-title">5 Elementos Críticos de una Estrategia CX Exitosa</div>
+          </a>
         </div>
         <div class="post-content">
           <span class="post-date">March 1, 2025</span>

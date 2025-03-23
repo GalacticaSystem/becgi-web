@@ -21,63 +21,75 @@ title: Portfolio - Be-cGi
     
     <div class="portfolio-grid">
       <div class="portfolio-item" data-category="retail">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Retail CX Transformation">
-        <div class="portfolio-title">Transformación CX en Retail</div>
-        <div class="portfolio-overlay">
-          <h3>Retail CX Transformation</h3>
-          <p>How we helped a major retailer reimagine their customer experience</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_1" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_1">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-1.jpg" alt="Retail CX Transformation">
+          <div class="portfolio-title">Transformación CX en Retail</div>
+          <div class="portfolio-overlay">
+            <h3>Retail CX Transformation</h3>
+            <p>How we helped a major retailer reimagine their customer experience</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
       
       <div class="portfolio-item" data-category="banking">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Banking Customer Journey">
-        <div class="portfolio-title">Experiencia Digital en Banca</div>
-        <div class="portfolio-overlay">
-          <h3>Banking Customer Journey</h3>
-          <p>Creating seamless digital experiences for banking customers</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_2" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_2">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-2.jpg" alt="Banking Customer Journey">
+          <div class="portfolio-title">Experiencia Digital en Banca</div>
+          <div class="portfolio-overlay">
+            <h3>Banking Customer Journey</h3>
+            <p>Creating seamless digital experiences for banking customers</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
       
       <div class="portfolio-item" data-category="telecom">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Telecom AI Implementation">
-        <div class="portfolio-title">IA Predictiva en Telecomunicaciones</div>
-        <div class="portfolio-overlay">
-          <h3>Telecom AI Implementation</h3>
-          <p>Reducing churn with predictive AI solutions</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_3" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_3">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-3.jpg" alt="Telecom AI Implementation">
+          <div class="portfolio-title">IA Predictiva en Telecomunicaciones</div>
+          <div class="portfolio-overlay">
+            <h3>Telecom AI Implementation</h3>
+            <p>Reducing churn with predictive AI solutions</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
       
       <div class="portfolio-item" data-category="retail">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-4.jpg" alt="Retail Loyalty Program">
-        <div class="portfolio-title">Programa de Lealtad Data-Driven</div>
-        <div class="portfolio-overlay">
-          <h3>Retail Loyalty Program</h3>
-          <p>Designing a data-driven loyalty program that increased repeat purchases by 45%</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_4" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_4">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-4.jpg" alt="Retail Loyalty Program">
+          <div class="portfolio-title">Programa de Lealtad Data-Driven</div>
+          <div class="portfolio-overlay">
+            <h3>Retail Loyalty Program</h3>
+            <p>Designing a data-driven loyalty program that increased repeat purchases by 45%</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
       
       <div class="portfolio-item" data-category="banking">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-5.jpg" alt="Digital Banking Transformation">
-        <div class="portfolio-title">Transformación de Banca Digital</div>
-        <div class="portfolio-overlay">
-          <h3>Digital Banking Transformation</h3>
-          <p>Revamping the mobile banking experience for a leading financial institution</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_5" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_5">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-5.jpg" alt="Digital Banking Transformation">
+          <div class="portfolio-title">Transformación de Banca Digital</div>
+          <div class="portfolio-overlay">
+            <h3>Digital Banking Transformation</h3>
+            <p>Revamping the mobile banking experience for a leading financial institution</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
       
       <div class="portfolio-item" data-category="telecom">
-        <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-6.jpg" alt="Telecom Customer Service">
-        <div class="portfolio-title">Servicio al Cliente Impulsado por IA</div>
-        <div class="portfolio-overlay">
-          <h3>Telecom Customer Service</h3>
-          <p>Implementing AI-powered customer service solutions that reduced response time by 65%</p>
-          <a href="{{ site.baseurl }}/portfolio/case_study_6" class="btn">Read Case Study</a>
-        </div>
+        <a href="{{ site.baseurl }}/portfolio/case_study_6">
+          <img src="{{ site.baseurl }}/assets/images/portfolio/case-study-6.jpg" alt="Telecom Customer Service">
+          <div class="portfolio-title">Servicio al Cliente Impulsado por IA</div>
+          <div class="portfolio-overlay">
+            <h3>Telecom Customer Service</h3>
+            <p>Implementing AI-powered customer service solutions that reduced response time by 65%</p>
+            <span class="btn">Read Case Study</span>
+          </div>
+        </a>
       </div>
     </div>
   </div>
